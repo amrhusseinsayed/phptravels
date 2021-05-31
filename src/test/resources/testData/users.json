@@ -1,0 +1,82 @@
+{
+  "user1": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "finaluniqueemail@gmail.com",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": "P@ssw0rd"
+  },
+  "user2": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "invalidemail",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": "P@ssw0rd"
+  },
+  "user3": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "user3@gmail.com",
+    "password": "aa",
+    "passwordConfirmation": "aa"
+  },
+  "user4": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "user4@gmail.com",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": "P@$$w0rd"
+  },
+  "user5": {
+    "firstName": "",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "user5@gmail.com",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": "P@ssw0rd"
+  },
+  "user6": {
+    "firstName": "Ahmed",
+    "lastName": "",
+    "mobileNumber": "01159915678",
+    "email": "user6@gmail.com",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": "P@ssw0rd"
+  },
+  "user7": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": "P@ssw0rd"
+  },
+  "user8": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "",
+    "email": "user8@gmail.com",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": "P@ssw0rd"
+  },
+  "user9": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "user9@gmail.com",
+    "password": "",
+    "passwordConfirmation": "P@ssw0rd"
+  },
+  "user10": {
+    "firstName": "Ahmed",
+    "lastName": "Mahmoud",
+    "mobileNumber": "01159915678",
+    "email": "user10@gmail.com",
+    "password": "P@ssw0rd",
+    "passwordConfirmation": ""
+  }
+}

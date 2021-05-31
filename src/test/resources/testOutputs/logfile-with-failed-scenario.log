@@ -1,0 +1,161 @@
+31-May-21 22:25:14 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:25:14 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithInvalidEmail
+31-May-21 22:25:14 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:25:14 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:25:14 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:25:19 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:25:26 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:25:26 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:25:27 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:25:27 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'invalidemail'
+31-May-21 22:25:27 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:25:27 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@ssw0rd'
+31-May-21 22:25:28 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:25:48 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'The Email field must contain a valid email address.'
+31-May-21 22:25:48 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:25:48 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:25:49 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:25:49 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithShortPassword
+31-May-21 22:25:49 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:25:49 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:25:49 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:25:51 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:25:59 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:25:59 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:26:00 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:26:00 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'user3@gmail.com'
+31-May-21 22:26:00 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'aa'
+31-May-21 22:26:01 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'aa'
+31-May-21 22:26:01 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:26:21 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'The Password field must be at least 6 characters in length.'
+31-May-21 22:26:21 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:26:21 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:26:22 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:26:22 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithUnmatchedPasswords
+31-May-21 22:26:22 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:26:22 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:26:22 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:26:24 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:26:32 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:26:32 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:26:32 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:26:32 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'user4@gmail.com'
+31-May-21 22:26:33 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:26:33 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@$$w0rd'
+31-May-21 22:26:33 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:26:54 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'Password not matching with confirm password.'
+31-May-21 22:26:54 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:26:54 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:26:55 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:26:55 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithoutEmail
+31-May-21 22:26:55 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:26:55 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:26:55 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:26:56 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:27:05 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:27:05 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:27:05 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:27:06 [INFO] ActionsUtil.logInfo:249 - Entering Email: ''
+31-May-21 22:27:06 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:27:06 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@ssw0rd'
+31-May-21 22:27:07 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:27:07 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'Please fill out this field.'
+31-May-21 22:27:07 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:27:07 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:27:09 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:27:09 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithoutFirstName
+31-May-21 22:27:09 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:27:09 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:27:09 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:27:11 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:27:19 [INFO] ActionsUtil.logInfo:249 - Entering First Name: ''
+31-May-21 22:27:20 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:27:20 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:27:20 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'user5@gmail.com'
+31-May-21 22:27:21 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:27:21 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@ssw0rd'
+31-May-21 22:27:21 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:27:21 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'Please fill out this field.'
+31-May-21 22:27:21 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:27:21 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:27:22 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:27:22 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithoutLastName
+31-May-21 22:27:22 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:27:22 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:27:22 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:27:24 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:27:32 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:27:33 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: ''
+31-May-21 22:27:33 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:27:33 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'user6@gmail.com'
+31-May-21 22:27:33 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:27:34 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@ssw0rd'
+31-May-21 22:27:34 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:27:34 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'Please fill out this field.'
+31-May-21 22:27:34 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:27:34 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:27:35 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:27:35 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithoutMobileNumber
+31-May-21 22:27:35 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:27:35 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:27:35 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:27:37 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:27:48 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:27:48 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:27:49 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: ''
+31-May-21 22:27:49 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'user8@gmail.com'
+31-May-21 22:27:49 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:27:50 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@ssw0rd'
+31-May-21 22:27:50 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:27:50 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'Please fill out this field.'
+31-May-21 22:27:50 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:27:50 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:27:51 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:27:51 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithoutPassword
+31-May-21 22:27:51 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:27:51 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:27:51 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:27:53 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:28:05 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:28:05 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:28:06 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:28:06 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'user9@gmail.com'
+31-May-21 22:28:06 [INFO] ActionsUtil.logInfo:249 - Entering Password: ''
+31-May-21 22:28:06 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@ssw0rd'
+31-May-21 22:28:07 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:28:07 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'Please fill out this field.'
+31-May-21 22:28:07 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:28:07 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:28:08 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:28:08 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerUserWithoutPasswordConfirmation
+31-May-21 22:28:08 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:28:08 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:28:08 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:28:10 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:28:19 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:28:19 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:28:19 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:28:20 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'user10@gmail.com'
+31-May-21 22:28:20 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:28:20 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: ''
+31-May-21 22:28:20 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:28:21 [INFO] ActionsUtil.logInfo:249 - Registration Validation Message: 'Please fill out this field.'
+31-May-21 22:28:21 [INFO] ActionsUtil.logSuccess:271 - Test Status: Passed
+31-May-21 22:28:21 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
+31-May-21 22:28:22 [INFO] BaseTest.beforeMethod:56 - ---------------------------------------------------------------
+31-May-21 22:28:22 [INFO] BaseTest.beforeMethod:57 - Test Case Name: registerValidUser
+31-May-21 22:28:22 [INFO] BaseTest.beforeMethod:58 - Status: Started
+31-May-21 22:28:22 [INFO] BaseTest.beforeMethod:59 - ---------------------------------------------------------------
+31-May-21 22:28:22 [INFO] ActionsUtil.logInfo:249 - Initializing the Browser instance
+31-May-21 22:28:23 [INFO] ActionsUtil.logInfo:249 - Navigating to the URL: 'https://www.phptravels.net/register'
+31-May-21 22:28:31 [INFO] ActionsUtil.logInfo:249 - Entering First Name: 'Ahmed'
+31-May-21 22:28:32 [INFO] ActionsUtil.logInfo:249 - Entering Last Name: 'Mahmoud'
+31-May-21 22:28:32 [INFO] ActionsUtil.logInfo:249 - Entering Mobile Number: '01159915678'
+31-May-21 22:28:32 [INFO] ActionsUtil.logInfo:249 - Entering Email: 'newuniqueeeee@gmail.com'
+31-May-21 22:28:32 [INFO] ActionsUtil.logInfo:249 - Entering Password: 'P@ssw0rd'
+31-May-21 22:28:33 [INFO] ActionsUtil.logInfo:249 - Entering Password Confirmation: 'P@ssw0rd'
+31-May-21 22:28:33 [INFO] ActionsUtil.logInfo:249 - Signing Up......
+31-May-21 22:30:33 [ERROR] ActionsUtil.logError:260 - Exception while waiting for the My Profile menu to be visible
+31-May-21 22:30:33 [ERROR] ActionsUtil.logError:260 - Stack Trace: [org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263), org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231), utils.ActionsUtil.waitForElementVisibility(ActionsUtil.java:195), pages.HomePage.waitForUserRegistration(HomePage.java:33), tests.RegistrationTest.registerValidUser(RegistrationTest.java:15), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1540), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66), com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)]
+31-May-21 22:30:34 [ERROR] ActionsUtil.logFail:282 - Test Status: Failed
+31-May-21 22:30:34 [INFO] ActionsUtil.logInfo:249 - Closing the running browser instance
